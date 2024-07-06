@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+.head{
+    color: aliceblue;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    margin: 0px 30px;
+}
+.logo{
+    width: 30%;
+}
+/* .logo h1{
+    font-size: 50px; 
+}  */
+nav{
+    width: 70%;
+    margin-right: 50px;
+}
+nav > ul{
+    display: flex;
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 10px;
+    padding: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    /* font-family: sans-serif; */
+    letter-spacing: 2px;
+    padding: 15px;
+}
+nav ul li a:hover{
+    background-color: lightgrey;
+    color: black;
+}
+
+/* header banner */
+.btn{
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(82, 195, 3);
+    color: aliceblue;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+}
+#banner{
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png);
+    width: 1366px;
+    height: 642px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner .precode{
+    width: 642px;
+}
+#banner .precode .subtitle {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    line-height: 14px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+}
+
+#banner .precode .title {
+    color: rgb(255, 255, 255);
+    /* font-family: Work Sans; */
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#banner .precode .description{
+    color: rgb(255, 255, 255);
+    /* font-family: Work Sans; */
+    font-size: 14px;
+    font-weight: 400;
+    /* line-height: 28px; */
+    letter-spacing: 1%;
+    text-align: center;
+}
+/* #banner .precode .btn{
+    text-align: center;
+} */
+ .btn-container{
+    text-align: center;
+ }
